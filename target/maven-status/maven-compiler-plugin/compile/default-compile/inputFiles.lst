@@ -5,6 +5,7 @@ C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\ja
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Service\UserDetailsImpl.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Repository\Rhys.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\IvkApplication.java
+C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Dto\JwtDto.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\MainSecurity.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Entity\Persona.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Controller\CEducacion.java
@@ -14,11 +15,10 @@ C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\ja
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Controller\CHys.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Controller\PersonaController.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Repository\REducacion.java
+C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Dto\LoginUsuario.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\jwt\JwtTokenFilter.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Entity\Educacion.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Service\RolService.java
-C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Securty\Dto\LoginUsuario.java
-C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Securty\Dto\NuevoUsuario.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Service\UsuarioService.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Service\SExperiencia.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Dto\dtoPersona.java
@@ -31,10 +31,9 @@ C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\ja
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Entity\Experiencia.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Entity\hys.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\jwt\JwtEntryPoint.java
-C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Securty\Dto\JwtDto.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Service\SEducacion.java
-C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Interface\IPersonaService.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Entity\UsuarioPrincipal.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Controller\AuthController.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Repository\IPersonaRepository.java
 C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Dto\dtoEducacion.java
+C:\Users\Ivan Van Kruijssen\Varios VSC\ArgentinaPrograma-Backend\ivk\src\main\java\com\porfolio\ivk\Security\Dto\NuevoUsuario.java

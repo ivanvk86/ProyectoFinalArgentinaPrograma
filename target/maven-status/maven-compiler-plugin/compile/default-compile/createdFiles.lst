@@ -27,7 +27,6 @@ com\porfolio\ivk\Security\Controller\Mensaje.class
 com\porfolio\ivk\Service\Shys.class
 com\porfolio\ivk\Security\jwt\JwtProvider.class
 com\porfolio\ivk\Repository\REducacion.class
-com\porfolio\ivk\Interface\IPersonaService.class
 com\porfolio\ivk\Security\Entity\Usuario.class
 com\porfolio\ivk\Securty\Dto\LoginUsuario.class
 com\porfolio\ivk\Service\SExperiencia.class

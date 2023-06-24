@@ -1,36 +1,43 @@
 package com.porfolio.ivk.Service;
 
 import com.porfolio.ivk.Entity.Persona;
-import com.porfolio.ivk.Interface.IPersonaService;
 import com.porfolio.ivk.Repository.IPersonaRepository;
+import jakarta.transaction.Transactional;
 import java.util.List;
+import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImpPersonaService implements IPersonaService{
+@Transactional
+public class ImpPersonaService{
     @Autowired IPersonaRepository ipersonarepository;
-
-    @Override
-    public List<Persona> getPersona() {
-        List<Persona> persona = ipersonarepository.findAll();
-        return persona;
-    }
-
-    @Override
-    public void savePersona(Persona persona) {
-        ipersonarepository.save(persona);
-    }
-
-    @Override
-    public void deletePersona(Long id) {
-        ipersonarepository.deleteById(id);
-    }
-
-    @Override
-    public Persona findPersona(Long id) {
-        Persona persona = ipersonarepository.findById(id).orElse(null);
-        return persona;
+    
+   public List<Persona> list(){
+       return ipersonarepository.findAll();
     }
     
+    public Optional<Persona> getOne(int id){
+        return ipersonarepository.findById(id);
+    }
+    
+    public Optional<Persona> getByNombre(String nombre){
+        return ipersonarepository.findByNombre(nombre);
+    }
+    
+    public void save(Persona persona){
+        ipersonarepository.save(persona);
+    }
+    
+    public void delete(int id){
+        ipersonarepository.deleteById(id);
+    }
+    
+    public boolean existsById(int id){
+        return ipersonarepository.existsById(id);
+    }
+    
+    public boolean existsByNombre(String nombre){
+        return ipersonarepository.existsByNombre(nombre);
+    } 
 }
